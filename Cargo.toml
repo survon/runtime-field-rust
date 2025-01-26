@@ -1,0 +1,14 @@
+[package]
+name = "my_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For terminal I/O
+crossterm = "0.27"
+
+# Ratatui alpha, plus crossterm feature
+ratatui = { version = "0.30.0-alpha.1", features = ["crossterm"] }
+
+# For random data in widget_four
+rand = "0.8"
